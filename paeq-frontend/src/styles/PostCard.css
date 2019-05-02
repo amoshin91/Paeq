@@ -9,14 +9,34 @@
   width: 400px;
 }
 
+.cup-post ul {
+  margin: 15px 0;
+  padding: 0 20px;
+  list-style: none;
+  text-align: left;
+}
+
+.cup-post li {
+  margin: 15px 0;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: .8em;
+}
+
+.cup-post li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
 .post-form {
-  margin: 10px 0;
+  margin: 10px 0 15px;
+  padding: 15px 20px 0;
+  border-top: 1px solid #888;
 }
 
 .post-form input {
   width: 390px;
-  height: 1.5em;
-  overflow: scroll;
+  height: 2em;
   border: 0px;
 }
 

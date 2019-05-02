@@ -8,22 +8,29 @@ import AfterCard from './AfterCard'
 class Project extends Component {
 
   state = {
-    posts: []
+    posts: [],
+    comments: []
   }
 
   componentDidMount = () => {
     fetch('http://localhost:3000/posts')
       .then(res => res.json())
       .then(posts => {
-        debugger
         this.setState({
           posts
+        }, () => console.log(this.state))
+      })
+    fetch('http://localhost:3000/comments')
+      .then(res => res.json())
+      .then(comments => {
+        this.setState({
+          comments
         })
       })
   }
 
   setPost = () => {
-    return this.state.posts.map(post => <BeforeCard key={post.id} post={post} />)
+    return this.state.posts.map(post => <BeforeCard key={post.id} post={post} comments={this.state.comments}/>)
   }
 
   render() {

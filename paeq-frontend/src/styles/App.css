@@ -34,7 +34,7 @@
 
 .App {
   background-color: #ccc;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .flex {
@@ -65,5 +65,5 @@ content img {
   width: 960px;
   margin: auto;
   background-color: #fff;
-  height: 100vh;
+  /* height: 100vh; */
 }
