@@ -1,0 +1,25 @@
+.cup-post {
+  margin: 10px auto 30px;
+  border: 1px solid #888;
+  width: 92%;
+}
+
+.cup-post img {
+  padding: 10px 0 0;
+  width: 400px;
+}
+
+.post-form {
+  margin: 10px 0;
+}
+
+.post-form input {
+  width: 390px;
+  height: 1.5em;
+  overflow: scroll;
+  border: 0px;
+}
+
+.post-form input[type=text]:focus {
+  outline: none;
+}

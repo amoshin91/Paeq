@@ -1,4 +1,4 @@
-class CommentController < ApplicationController
+class CommentsController < ApplicationController
   before_action :get_comments, only: [:show, :edit, :update, :destroy]
 
   def index

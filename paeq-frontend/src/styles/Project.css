@@ -1,0 +1,10 @@
+#content-left, #content-right {
+  min-width: 50%
+}
+
+#content-left {
+  border-right: 1px solid #888;
+}
+
+#content-right {
+}
