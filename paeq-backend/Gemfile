@@ -25,6 +25,8 @@ gem 'active_model_serializers'
 
 gem 'jwt'
 
+gem 'json'
+
 gem "aws-sdk-s3"
 
 # Reduces boot times through caching; required in config/boot.rb

@@ -1,10 +1,33 @@
+.content-title {
+  width: 92%;
+  border-bottom: 1px solid #888;
+  padding-bottom: 30px;
+}
+
+#content-title-left {
+  margin: 0 0 15px 9px;
+}
+
+#content-title-right {
+  margin: 0 0 15px 28px;
+}
+
 #content-left, #content-right {
-  min-width: 50%
+  min-width: 50%;
+  margin-bottom: 30px;
 }
 
 #content-left {
   border-right: 1px solid #888;
+
 }
 
-#content-right {
+#cup-count-left {
+  width: 92%;
+  margin: 0 0 15px 9px;
+}
+
+#cup-count-right {
+  width: 92%;
+  margin: 0 0 15px 27px;
 }

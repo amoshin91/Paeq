@@ -2,11 +2,27 @@
   margin: 10px auto 30px;
   border: 1px solid #888;
   width: 92%;
+  background-color: #fff;
+}
+
+#content-left .cup-post, #content-right .cup-post {
+  overflow: hidden;
+}
+
+#content-left .cup-post {
+  margin-left: 8px;
+}
+
+#content-right .cup-post {
+  margin-right: 8px;
 }
 
 .cup-post img {
-  padding: 10px 0 0;
-  width: 400px;
+  width: 100%;
+  padding-bottom: 5px;
+  height: 300px;
+  object-fit: cover;
+  margin-top: -21px;
 }
 
 .cup-post ul {
@@ -29,8 +45,8 @@
 }
 
 .post-form {
-  margin: 10px 0 15px;
-  padding: 15px 20px 0;
+  margin-top: 10px;
+  padding: 15px 20px;
   border-top: 1px solid #888;
 }
 
@@ -42,4 +58,29 @@
 
 .post-form input[type=text]:focus {
   outline: none;
+}
+
+.post-info-container {
+  display: flex;
+  width: 400px;
+  margin: auto;
+  font-size: .7em;
+  color: #222;
+}
+
+.post-date, .post-time {
+  width: 200px;
+  margin-top: 0px;
+}
+
+.post-date {
+  text-align: left;
+}
+
+.post-time {
+  text-align: right;
+}
+
+.form {
+  background-color: #fff;
 }

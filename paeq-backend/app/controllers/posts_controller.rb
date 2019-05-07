@@ -5,7 +5,11 @@ class PostsController < ApplicationController
   def index
     @posts = Post.all
 
-    render json: @posts
+    s = Net::HTTP.get_response(URI.parse('https://dc7n9fkvj0.execute-api.us-east-2.amazonaws.com/deployed/mod-5-cup-images/')).body
+
+    doc = Hash.from_xml(s).to_json
+
+    render json: doc
     # render :index
   end
 

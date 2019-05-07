@@ -5,7 +5,7 @@ import '../styles/App.css'
 class Footer extends Component {
   render() {
     return (
-      <footer className="flex">
+      <footer id="flex-footer">
         <div id="footer-left">
           some stuff
         </div>

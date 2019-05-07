@@ -33,21 +33,26 @@
 }
 
 .App {
-  background-color: #ccc;
+  /* background-color: #ccc; */
   /* height: 100vh; */
 }
 
 .flex {
   display: flex;
+  margin-top: 120px;
+}
+
+#flex-footer {
+  display: flex;
 }
 
 .block {
   display: block;
+  margin-top: 120px;
 }
 
 content {
-  margin-top: 30px;
-  padding: 0 20px;
+  padding: 30px 20px 0;
 }
 
 content h3 {
@@ -64,6 +69,10 @@ content img {
 #container {
   width: 960px;
   margin: auto;
-  background-color: #fff;
+  background-color: #f7f7f7;
   /* height: 100vh; */
+}
+
+body {
+  background-color: #ddd;
 }
