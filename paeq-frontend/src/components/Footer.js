@@ -10,10 +10,21 @@ class Footer extends Component {
           some stuff
         </div>
         <div id="footer-center">
-          more stuff
+          <a href="https://github.com/amoshin91/Paeq">
+            <img src="" alt="github"/>
+          </a>
+
+          <a href="https://medium.com/@amosshin/flatiron-school-final-project-day-1-paeq-is-born-bfb967f7e226">
+            <img src="" alt="medium"/>
+          </a>
+
+          <a href="https://www.linkedin.com/in/amosshin/">
+            <img src="" alt="linkedin"/>
+          </a>
+
         </div>
         <div id="footer-right">
-          even more stuff
+          <h5>Amos Shin</h5>
         </div>
       </footer>
     )

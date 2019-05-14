@@ -4,12 +4,35 @@
   border-bottom: 1px solid #888;
 }
 
-#about-content {
+.about-content {
   margin-top: 30px;
 }
 
-#about-content p {
+.about-content p {
   padding: 0 30px;
   width: 50%;
   text-align: left;
+}
+
+#quote {
+  font-style: italic;
+  font-size: 1.2em;
+  border-left: 3px solid #777;
+  padding: 5px 0 5px 20px;
+}
+
+#quote-source {
+  font-style: italic;
+  font-size: .9em;
+  padding: 0;
+  position: relative;
+  top: 5px;
+}
+
+.last {
+  margin-bottom: 40px;
+}
+
+.flex p a:link {
+  padding: 0;
 }
