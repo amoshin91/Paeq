@@ -17,7 +17,6 @@ class Nav extends Component {
           <Link to='/about'>about</Link>
           <Link to='/project'>project</Link>
           <a href='https://medium.com/@amosshin/flatiron-school-final-project-day-1-paeq-is-born-bfb967f7e226'>blog</a>
-          <Link to='/signup'>sign up</Link>
         </div>
       </nav>
     )
@@ -25,3 +24,5 @@ class Nav extends Component {
 }
 
 export default Nav
+
+// <Link to='/signup'>sign up</Link>

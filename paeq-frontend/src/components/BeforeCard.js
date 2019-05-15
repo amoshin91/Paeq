@@ -33,13 +33,13 @@ class BeforeCard extends Component {
 
           </li>
         </ul>
-        <form className="post-form">
-          <input type="text" value="Add a Comment"/>
-        </form>
       </div>
     )
   }
 }
 // <img src={this.props.post.photoUrl} alt={this.props.post.id}/>
 
+// <form className="post-form">
+// <input type="text" value="Add a Comment"/>
+// </form>
 export default BeforeCard

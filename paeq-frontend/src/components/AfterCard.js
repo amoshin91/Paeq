@@ -26,12 +26,12 @@ class AfterCard extends Component {
         <ul>
 
         </ul>
-        <form className="post-form">
-          <input type="text" value="Add a Comment"/>
-        </form>
       </div>
     )
   }
 }
+// <form className="post-form">
+// <input type="text" value="Add a Comment"/>
+// </form>
 
 export default AfterCard
